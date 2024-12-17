@@ -156,5 +156,24 @@ p {
 
 
 
-/* Lorem ! CSS */
+/* Lorem Ipsum CSS */
 
+.Lorem1 {
+    border-top: 2px solid #7D7F7C;
+    margin: 15px;
+}
+
+.Lorem2 {
+    border-top: 2px solid #7D7F7C;
+    margin: 15px;
+}
+
+.Lorem3 {
+    border-top: 2px solid #7D7F7C;
+    border-bottom: 2px solid #7D7F7C;
+    margin: 15px;
+}
+
+.Placeholder {
+    margin: 15px;
+}
