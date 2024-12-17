@@ -1,1 +1,3 @@
 # Personal-Website
+
+Project: Build a website about yourself including three different web pages. Include an Index page introducing yourself with picture/s and quotes letting people know what you stand for. Your next page should be about what you find interesting. Include hobbies and things you want to share with the viewer that makes you interesting. The final page will be a portfolio highlighting your accomplishments. After this is done include CSS to style these pages making it visually appealing. Finally, create a javascript pop up displaying "Hello World" onto each unique web page on your site.
