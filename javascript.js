@@ -1,5 +1,16 @@
-//User Message
-const user1 ="Hello World."
+/** Contact Form JS */
 
-//User Alert
-alert (user1)
+const form = document.querySelector('#form')
+const submitButton = document.querySelector('#submit')
+
+form.addEventListener('submit', (e) => {
+submitButton.disabled = true
+e.preventDefault()
+window.location.href = window.location.origin + '/success.html'
+})
+
+/** Submit Form JS */
+
+setTimeout(() => {
+    window.location.href = window.location.origin
+    }, 5000)
