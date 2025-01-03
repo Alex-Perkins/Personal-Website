@@ -11,78 +11,96 @@
 
 <body>
     <!-- Title Header -->
-    <section>
-        <h1 style="font-size: 50px;"> About Me </h1>
-    </section>
-    <!-- Naviation Bar -->
-    <section>
-        <nav class="NavBar">
-            <ul>
-                <li> <a class="active" href="index.html"> Home </a> </li>
-                <li> <a class="active" href="about.html"> About </a> </li>
-                <li> <a class="active" href="portfolio.html"> Portfolio </a> </li>
-            </ul>
-        </nav>
+    <section class="StickyHeader">
+        <div class="Header">
+            <h1 style="font-size: 50px;"> Hobbies </h1>
+            <!-- Naviation Bar -->
+            <nav class="NavBar">
+                <ul>
+                    <li> <a class="active" href="index.html"> Home </a> </li>
+                    <li> <a class="active" href="about.html"> About </a> </li>
+                    <li> <a class="active" href="portfolio.html"> Portfolio </a> </li>
+                    <li> <a class="active" href="forms.html"> Forms </a> </li>
+                </ul>
+            </nav>
     </section>
     <!-- Hobbies & Interests -->
-    <section>
-        <h2 class="Hobbies"> I enjoy doing a wide variety of things. </h2>
-    </section>
     <!-- Running -->
+    <div class="Hobbies">
+        <section>
+            <div class="Hobby1">
+                <h2 class="Running"> Running </h2>
+                <img class="Sprint"
+                    src="https://media.istockphoto.com/id/1324624694/photo/fitness-woman-running-training-for-marathon-on-sunny-coast-trail.jpg?s=612x612&w=0&k=20&c=09StrnZiVdHvfR1G9CeBqcMYxSvFSGFQVuNbOzhBQ-c=" />
+                <p class="Interests"> Since middle school I have always been a runner at heart. While, I have tried
+                    other
+                    sports such as
+                    football, basketball, and baseball, I have always came back to the thing they all have in common.
+                    I started with cross country and quickly realized I was more of a sprinter.My passion for it took me
+                    into track & field, where I focused on the 400m. Running is so much more than going out and moving
+                    your
+                    legs,
+                    it is honestly a lot nerdier than it seems. You have to be intune with your body.
+                </p>
+            </div>
+        </section>
+        <!-- SpikeBall -->
+        <section>
+            <div class="Hobby2">
+                <h2 class="SpikeBall"> SpikeBall </h2>
+                <img class="Spike" src="https://williamsrecord.com/wp-content/uploads/2021/05/spikeball2.jpeg" />
+                <p class="Interests"> It is a sport that has been up and coming in the past few years but I have played
+                    SpikeBall for around 6
+                    years now. I met a good group of friends doing it and I have even traveled for tournaments competing
+                    with international teams as well as colleges.
+                    If you are not familiar with Spikeball think of it like volleyball but instead of passing the ball
+                    over
+                    a net you bounce it off a central net placed on the ground. In 2022 I was ranked #55 out of 100
+                    Spikeball Players in the state of Texas.
+                </p>
+            </div>
+        </section>
+        <!-- Nature -->
+        <section>
+            <div class="Hobby3">
+                <h2 class="Nature"> Nature </h2>
+                <img class="Picture3"
+                    src="https://images.squarespace-cdn.com/content/v1/5626d3a1e4b0fe0e8117d7ac/5d3e7f2d-820c-41a1-b966-62014be97f9d/SS_pilchuck-12.jpg" />
+                <p class="Interests"> The outdoors wasn't always something that I loved. I had to be exposed to it.
+                    Growing
+                    up, my family has
+                    taken multiple vacations to Colorado to get out of our normal scene in the city. I have ziplined
+                    over
+                    the mountains, white water rafted, hiked through waterfalls, and just simply allowed myself to exist
+                    in
+                    nature. Ive also spent a week in a yurt by the ocean in oregon. Some of my favorite outdoor
+                    activities
+                    are hiking, kyaking, and rock climbing. Next I want to try skydiving.
+                </p>
+            </div>
+        </section>
+        <!-- Gaming -->
+        <section>
+            <div class="Hobby4">
+                <h2 class="Gaming"> Gaming </h2>
+                <img class="Destiny"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwzglAPGlo1HtghCYRK6iJjHCH7GUuxqfRGA&s" />
+                <p class="Interests"> Before I could remember I have always loved gaming. I grew up playig Fifa and
+                    Skyrim
+                    with my uncle.
+                    Then, it led to my dad and I finding a common interest when Destiny The Game released. I think what
+                    really got me into gaming is the community that it can bring between people. It is hard to
+                    understand
+                    unless you have experienced it. To this day my dad and I still play Destiny together and we even
+                    have
+                    our old characters on the Playstation from since I was a kid. I've even been able to make money off
+                    of gaming.
+            </div>
+        </section>
+    </div>
     <section>
-        <div class="Run">
-            <h2> Running </h2>
-            <img class="Sprint" src="data:image/png;base64,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" />
-            <p class="Interests"> Since middle school I have always been a runner at heart. While, I have tried other sports such as
-                football, basketball, and baseball, I have always came back to the thing they all have in common.
-                I started with cross country and quickly realized I was more of a sprinter.My passion for it took me
-                into track & field, where I focused on the 400m. Running is so much more than going out and moving your
-                legs,
-                it is honestly a lot nerdier than it seems. You have to focus on your biomechanics, what you put into
-                your body, and how you take care of yourself. Without those things you will not get to where you want to
-                be as a runner.
-            </p>
-        </div>
-    </section>
-    <!-- SpikeBall -->
-    <section>
-        <div class="SpikeBall">
-            <h2> SpikeBall </h2>
-            <img src="data:image/png;base64,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" />
-            <p class="Interests"> It is a sport that has been up and coming in the past few years but I have played SpikeBall for around 6
-                years now. I met a good group of friends doing it and I have even traveled for tournaments competing
-                with international teams as well as colleges.
-                If you are not familiar with Spikeball think of it like volleyball but instead of passing the ball over
-                a net you bounce it off a central net placed on the ground. In 2022 I was ranked #55 out of 100
-                Spikeball Players in the state of Texas.
-            </p>
-        </div>
-    </section>
-    <!-- Nature -->
-    <section>
-        <div class="Nature">
-            <h2> Nature </h2>
-            <img class="Outdoors" src="https://images.squarespace-cdn.com/content/v1/5626d3a1e4b0fe0e8117d7ac/5d3e7f2d-820c-41a1-b966-62014be97f9d/SS_pilchuck-12.jpg" />
-            <p class="Interests"> The outdoors wasn't always something that I loved. I had to be exposed to it. Growing up, my family has
-                taken multiple vacations to Colorado to get out of our normal scene in the city. I have ziplined over
-                the mountains, white water rafted, hiked through waterfalls, and just simply allowed myself to exist in
-                nature. Ive also spent a week in a yurt by the ocean in oregon. Some of my favorite outdoor activities
-                are hiking, kyaking, and rock climbing.
-            </p>
-        </div>
-    </section>
-    <!-- Gaming -->
-    <section>
-        <div class="Gaming">
-            <h2> Gaming </h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwzglAPGlo1HtghCYRK6iJjHCH7GUuxqfRGA&s" />
-            <p class="Interests"> Before I could remember I have always loved gaming. I grew up playig Fifa and Skyrim with my uncle.
-                Then, it led to my dad and I finding a common interest when Destiny The Game released. I think what
-                really got me into gaming is the community that it can bring between people. It is hard to understand
-                unless you have experienced it. To this day my dad and I still play Destiny together and we even have
-                our old characters on the Playstation from since I was a kid. Believe it or not this has been something
-                that I have even made a good bit of money off it. 
-            </p>
+        <div class="AboutFooter">
+            <p class="MyActivities"> These are some of my favorite things to do in my free time! </p>
         </div>
     </section>
 
