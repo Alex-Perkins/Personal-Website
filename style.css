@@ -1,0 +1,543 @@
+/* Universal CSS */
+/* Universal CSS */
+/* Universal CSS */
+
+/* Header */
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    color: black;
+}
+
+.StickyHeader {
+    position: sticky !important;
+    top: 0 !important;
+    background-image: linear-gradient(to right, #8eb69b, #6a6a6e, black) !important;
+    z-index: 100 !important;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7) !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+/* Navigation Bar CSS */
+
+.NavBar ul {
+    list-style-type: none;
+    border-collapse: collapse;
+    background-color: #8eb69b;
+    border: 2px solid black;
+    max-width: 300px;
+    max-height: 100px;
+    padding: 0px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.NavBar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.NavBar a:hover {
+    background-color: #8eb69b;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    transform: scale(1.15);
+}
+
+.NavBar li {
+    float: left;
+}
+
+/* Body CSS */
+
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/04/79/40/07/360_F_479400769_O0CoHPf22yaXVtw1AZkKelw7AUGWK0cR.jpg);
+}
+
+/* Header CSS */
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+/* Home Page CSS */
+/* Home Page CSS */
+/* Home Page CSS */
+
+
+
+/* Image CSS */
+
+.FlexImages {
+    display: flex;
+    justify-content: left;
+    width: 1000px;
+    position: relative;
+    top: 100px;
+    left: 110px;
+    z-index: 1;
+}
+
+.Img1 {
+    width: 40%;
+    margin: 15px;
+    border: 2px solid black;
+    background-color: #6a6a6e;
+    padding: 2px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+}
+
+.Img2 {
+    width: 20%;
+    margin: 15px;
+    border: 2px solid black;
+    background-color: #6a6a6e;
+    padding: 2px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+}
+
+/* Defining Statements CSS */
+
+.DefineMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    width: 250px;
+    height: 70px;
+    position: relative;
+    left: 860px;
+    bottom: 189px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: #8eb69b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+
+}
+
+.MissionStatement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    height: 130px;
+    width: 250px;
+    position: relative;
+    left: 860px;
+    bottom: 162px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: #8eb69b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+}
+
+/* Footer */
+
+.IndexFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    border-top: 5px solid black;
+    color: white;
+    border-bottom: 5px solid black;
+    background-color: #6a6a6e;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .7);
+    z-index: 100;
+}
+
+.FavQuote {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+
+
+/* About Page CSS */
+/* About Page CSS */
+/* About Page CSS */
+
+
+
+/* Hobbies Flex Grid CSS */
+
+.Hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 75px;
+    padding-bottom: 75px;
+    gap: 25px;
+}
+
+/* Hobby 1 CSS */
+
+.Hobby1 {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid #8eb69b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #d6d6d6;
+}
+
+.Hobby1:hover {
+    cursor: pointer;
+    font-size: 50px;
+    transform: scale(1.05);
+    border: 5px solid #8eb69b;
+}
+
+.Running {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.Sprint {
+    width: 100%;
+}
+
+/* Hobby 2 CSS */
+
+.Hobby2 {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid #8eb69b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #d6d6d6;
+}
+
+.Hobby2:hover {
+    cursor: pointer;
+    font-size: 50px;
+    transform: scale(1.05);
+    border: 5px solid #8eb69b;
+}
+
+.SpikeBall {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.Spike {
+    width: 100%;
+}
+
+/* Hobby 3 CSS */
+
+.Hobby3 {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid #8eb69b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #d6d6d6;
+}
+
+.Hobby3:hover {
+    cursor: pointer;
+    font-size: 50px;
+    transform: scale(1.05);
+    border: 5px solid #8eb69b;
+}
+
+.Nature {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.Picture3 {
+    width: 100%;
+}
+
+/* Hobby 4 CSS */
+
+.Hobby4 {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid #8eb69b;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #d6d6d6;
+}
+
+.Hobby4:hover {
+    cursor: pointer;
+    font-size: 50px;
+    transform: scale(1.05);
+    border: 5px solid #8eb69b;
+}
+
+.Gaming {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.Destiny {
+    width: 100%;
+}
+
+.AboutFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    border-top: 5px solid black;
+    color: white;
+    border-bottom: 5px solid black;
+    background-color: #6a6a6e;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .7);
+    z-index: 100;
+}
+
+.MyActivities {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+
+}
+
+
+
+/* Portfolio Page CSS */
+/* Portfolio Page CSS */
+/* Portfolio Page CSS */
+
+
+
+/* Lorem Ipsum Flex Table CSS */
+
+.LoremFlex {
+    display: grid;
+    flex-direction: row;
+    margin: 75px;
+    padding-bottom: 75px;
+    gap: 25px;
+}
+
+/* Lorem Images */
+
+.PlaceholderImg {
+    float: left;
+    margin: 15px;
+    position: relative;
+    top: 6px;
+}
+
+/* Lorem Section 1 */
+
+.Lorem1 {
+    margin: 15px;
+    border: 3px solid #81a78d;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #8eb69b;
+}
+
+.LoremTitle1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    left: 380px;
+    margin: 20px;
+}
+
+/* Lorem Section 2 */
+
+.Lorem2 {
+    margin: 15px;
+    border: 3px solid #cbcbcb;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #d6d6d6;
+}
+
+.LoremTitle2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    left: 380px;
+    margin: 20px;
+}
+
+/* Lorem Section 3 */
+
+.Lorem3 {
+    margin: 15px;
+    border: 3px solid #81a78d;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+    background-color: #8eb69b;
+}
+
+.LoremTitle3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    left: 380px;
+    margin: 20px;
+}
+
+/* PortfolioFooter */
+
+.PortfolioFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    border-top: 5px solid black;
+    color: white;
+    border-bottom: 5px solid black;
+    background-color: #6a6a6e;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .7);
+    z-index: 100;
+}
+
+/* Portfolio Footer CSS */
+
+.Accomplishments {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+
+
+/* FORMS PAGE CSS */
+/* FORMS PAGE CSS */
+/* FORMS PAGE CSS */
+
+
+
+/* Forms Flex Grid */
+
+.FormsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 900px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.FormsGrid>div {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 202px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .7);
+}
+
+.FormsGroup {
+    background-color: #6a6a6e;
+    border: 3px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+/* Different Input Forms */
+
+.FLName {
+    margin: 5px;
+    padding: 5px;
+}
+
+.Phone {
+    margin: 5px;
+    padding: 5px;
+}
+
+.TodaysDate {
+    margin: 5px;
+    padding: 5px;
+}
+
+.EmailAd {
+    margin: 5px;
+    padding: 5px;
+}
+
+.Resume {
+    margin: 5px;
+    padding: 5px;
+}
+
+.FavColor {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Forms Footer CSS */
+
+.FormsFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    border-top: 5px solid black;
+    color: white;
+    border-bottom: 5px solid black;
+    background-color: #6a6a6e;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, .7);
+    z-index: 100;
+}
+
+.MyForms {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+
+
+/* SUBMISSION PAGE CSS */
+/* SUBMISSION PAGE CSS */
+/* SUBMISSION PAGE CSS */
+
+
+
+/* Submission Header CSS */
+
+.SubmissionText {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding-top: 75px;
+}
+
+
+
+/* FINSIHED */
+/* FINSIHED */
+/* FINISHED */
