@@ -361,9 +361,9 @@ p {
 
 .Lorem1 {
     margin: 15px;
-    border: 3px solid #81a78d;
+    border: 3px solid #cbcbcb;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
-    background-color: #8eb69b;
+    background-color: #d6d6d6;
 }
 
 .LoremTitle1 {
@@ -397,9 +397,9 @@ p {
 
 .Lorem3 {
     margin: 15px;
-    border: 3px solid #81a78d;
+    border: 3px solid #cbcbcb;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
-    background-color: #8eb69b;
+    background-color: #d6d6d6;
 }
 
 .LoremTitle3 {
@@ -445,18 +445,16 @@ p {
 
 .FormsGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 900px;
+    height: 800px;
     margin-top: 50px;
-    margin-bottom: 45px;
 }
 
 .FormsGrid>div {
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     position: relative;
-    left: 202px;
+    left: 367px;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, .7);
 }
 
@@ -467,38 +465,32 @@ p {
     align-content: center;
 }
 
-/* Different Input Forms */
+/* Forms CSS */
 
-.FLName {
+.FormsCSS {
     margin: 5px;
     padding: 5px;
 }
 
-.Phone {
-    margin: 5px;
-    padding: 5px;
+.FLNameBox {
+    width: 100px;
+    height: 25px;
 }
 
-.TodaysDate {
-    margin: 5px;
-    padding: 5px;
+.EmailAdBox {
+    width: 100px;
+    height: 25px;
 }
 
-.EmailAd {
-    margin: 5px;
-    padding: 5px;
+.MessageBox {
+    width: 400px;
+    height: 100px;
 }
 
-.Resume {
-    margin: 5px;
-    padding: 5px;
+.SubmitButton {
+    width: 75px;
+    height: 25px;
 }
-
-.FavColor {
-    margin: 5px;
-    padding: 5px;
-}
-
 /* Forms Footer CSS */
 
 .FormsFooter {
