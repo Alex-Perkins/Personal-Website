@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
-    <title> Forms Page </title>
+    <title> Contact Me </title>
 </head>
 
 <body>
     <section class="StickyHeader">
         <div class="Header">
-            <h1 style="font-size: 50px;"> Forms </h1>
+            <h1 style="font-size: 50px;"> Contact Me </h1>
             <!-- Naviation Bar -->
             <nav class="NavBar">
                 <ul>
                     <li> <a class="active" href="index.html"> Home </a> </li>
                     <li> <a class="active" href="about.html"> About </a> </li>
                     <li> <a class="active" href="portfolio.html"> Portfolio </a> </li>
-                    <li> <a class="active" href="forms.html"> Forms </a> </li>
+                    <li> <a class="active" href="forms.html"> Contact Me </a> </li>
                 </ul>
             </nav>
     </section>
@@ -27,52 +27,17 @@
         <div class="FormsGrid">
             <div class="FormsGroup">
                 <form action="./submit.html">
-                    <label class="FLName" for="First"> First Name </label>
-                    <input class="FLName" name=" First" type="text" />
-                    <label class="FLName" for="Last"> Last Name </label>
-                    <input class="FLName" name=" Last" type="text" />
-                    <input class="FLName" type="submit" />
+                    <p> <label class="FormsCSS" for="First&Last"> First & Last Name </label> </p>
+                    <input class="FLNameBox" name=" First&Last" type="text" />
+                    <p> <label class="FormsCSS" for="Email"> Email Address </label> </p>
+                    <input class="EmailAdBox" name="Email" type="email" />
+                    <p> <label class="FormsCSS" for="Message"> Message </label> </p>
+                    <input class="MessageBox" name="Message" type="text" />
+                    <p> <input class="SubmitButton" type="submit" /> </p>
                 </form>
-            </div>
-            <div class="FormsGroup">
-                <form action="./submit.html">
-                    <label class="Phone" for="PhoneNumber"> Phone Number </label>
-                    <input class="Phone" name=" First" type="number" />
-                    <input class="Phone" type="submit" />
-                </form>
-            </div>
-            <div class="FormsGroup">
-                <form action="./submit.html">
-                    <label class="TodaysDate" for="Todays Date"> Todays Date </label>
-                    <input class="TodaysDate" name=" First" type="date" />
-                    <input class="TodaysDate" type="submit" />
-                </form>
-            </div>
-            <div class="FormsGroup">
-                <form action="./submit.html">
-                    <label class="EmailAd" for="Email"> Email Address </label>
-                    <input class="EmailAd" name="Email" type="email" />
-                    <input class="EmailAd" type="submit" />
-                </form>
-            </div>
-            <div class="FormsGroup">
-                <form action="./submit.html">
-                    <label class="Resume" for="Resume"> Resume </label>
-                    <input class="Resume" name="Resume" type="file" />
-                    <input class="Resume" type="submit" />
-                    </form>
-            </div>
-            <div class="FormsGroup">
-                <form action="./submit.html">
-                    <label class="FavColor" for="FavoriteColor"> Favorite Color </label>
-                    <input class="FavColor" name="FavoriteColor" type="color" />
-                    <input class="FavColor" type="submit" />
-                    </form>
             </div>
         </div>
     </section>
-
-
     <section>
         <div class="FormsFooter">
             <p class="MyForms"> Please take the time to fill out these forms. </p>
